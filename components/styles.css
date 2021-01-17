@@ -107,7 +107,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .containerBox {
         display: flex;
     }
@@ -148,6 +148,12 @@
 }
 
 @media (min-width: 1024px) {
+    .launchDetailsCard {        
+        height: 290px;        
+    }
+
+}
+@media (min-width: 1440px) {
     .launchDetailsCard {        
         height: 290px;        
     }
