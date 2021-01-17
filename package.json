@@ -1,0 +1,27 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "spacex",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "author": "Pramod Mali",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "next": "^7.0.1",
+    "next-images": "^1.6.2",
+    "node-sass": "^5.0.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.5.2",
+    "react-multi-ref": "^1.0.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

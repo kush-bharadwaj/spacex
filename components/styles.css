@@ -1,0 +1,153 @@
+.container {
+    margin: auto;
+    padding: 10px;
+    background-color: #f2f2f2;
+    max-width: 1024px;
+}
+.container h2, .container h3 {
+    margin: 0px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.containerLeftSection {
+    height: 580px;
+    padding: 10px 10px 50px 10px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+.containerRightSection {
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    width: 96%;
+    padding: 0px 0px 50px 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    
+
+}
+.defaultColor {
+    background-color: #c5e09b;
+    
+}
+.launchYearBox button {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 8px;
+}
+.launchYearBox h4 {
+    border-bottom: solid 1px #c3bdbf;
+}
+.launchYearBox div {
+    width: 45%;
+    display: inline-block;
+    margin: 10px 0px;
+}
+.filterBtnDiv {
+    width: 100%;
+}
+.filterBtnDiv div{
+    width: 45%;
+    display: inline-block;
+}
+.successBox button {
+    border-radius: 5px;
+    border: none;
+    padding: 3px 8px;
+}
+.successBox h4 {
+    border-bottom: solid 1px #c3bdbf;
+}
+.containerBox {
+    margin-top: 5px;
+}
+
+.launchDetailsCard {
+    width: 100%;
+    background-color: #ffffff;
+    height: 285px;
+    padding: 20px 5px 5px 5px;
+    text-align: center;
+    margin: auto;    
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.launchDetailsCard img{
+    
+        width: 54%;
+        margin: 0px 10%;
+   
+}
+.launchDetailsCard span {
+    font-weight: bold;
+}
+.launchImage {
+    background-color: #f2f2f2;
+    max-width: 90%;
+    margin: auto;
+}
+
+.launchDetails {
+    text-align: left;
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+.blueText {
+    color:#475198;
+    font-weight: bold;
+}
+.launchDetails div {
+    padding: 1px 0px;
+}
+
+
+@media (min-width: 768px) {
+    .containerBox {
+        display: flex;
+    }
+    .containerLeftSection {
+        width:20%;
+
+    }
+    .containerRightSection {
+        width: 80%;
+        margin-left: 10px;
+        padding: 0px;
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 0px;
+        
+
+    }
+    .launchDetailsCard {
+        max-width: 230px;
+        width: 21%;
+        display: inline-block;
+        margin-right: 10px;
+        height: 340px;
+        padding: 5px;
+    }
+    .launchDetailsCard img {
+        margin: 0px;
+        width: 120px;
+        height: 120px;
+    }
+    .launchImage {
+        margin: 0px;
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .launchDetailsCard {        
+        height: 290px;        
+    }
+
+}
