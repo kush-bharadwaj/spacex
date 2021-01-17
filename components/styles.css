@@ -131,7 +131,9 @@
         display: inline-block;
         margin-right: 10px;
         height: 340px;
-        padding: 5px;
+        padding: 5px;        
+        margin-left: 0px;
+        margin-top: 0px;
     }
     .launchDetailsCard img {
         margin: 0px;
