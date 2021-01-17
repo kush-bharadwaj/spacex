@@ -2,7 +2,6 @@ import React, { useRef, useState, useEffect } from 'react';
 import { withRouter } from 'next/router';
 import MultiRef from 'react-multi-ref';
 import { filterYears, filterLaunching, filterLanding } from './inputData.js';
-import { Container, Row, Col } from 'react-bootstrap';
 import axios from 'axios';
 
 import './styles.css';
@@ -19,7 +18,6 @@ const Dashboard = (props) => {
     const [responseData, setResponseData] = useState([]);
 
     useEffect(function () {
-        //     router.replace('/home/dashboard');
         handleApiCall({});
 
     }, []);
