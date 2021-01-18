@@ -76,8 +76,8 @@ const Dashboard = (props) => {
             router.replace('/home/dashboard/', 'button-' + index);
             filterLaunching.forEach((val, i) => launchingRef.map.get(i).style.background = '#c5e09b');
             launchingRef.map.get(index).style.background = '#7cba01';
-            filterParam.launch_success = launchingRef.map.get(index).value;
-            setLaunchSuccess(launchingRef.map.get(index).value);
+            filterParam.launch_success = launchingRef.map.get(index).value.toLowerCase();
+            setLaunchSuccess(launchingRef.map.get(index).value.toLowerCase());
         }
         handleApiCall(filterParam);
     }
@@ -96,8 +96,8 @@ const Dashboard = (props) => {
             router.replace('/home/dashboard/', 'button-' + index);
             filterLanding.forEach((val, i) => landingRef.map.get(i).style.background = '#c5e09b');
             landingRef.map.get(index).style.background = '#7cba01';
-            filterParam.land_success = landingRef.map.get(index).value;
-            setLandSuccess(landingRef.map.get(index).value);
+            filterParam.land_success = landingRef.map.get(index).value.toLowerCase();
+            setLandSuccess(landingRef.map.get(index).value.toLowerCase());
         }
         handleApiCall(filterParam);
     }
