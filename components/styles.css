@@ -106,8 +106,61 @@
     padding: 1px 0px;
 }
 
+@media (min-width: 420px) {
+
+    .launchImage {
+        max-width: 65%;
+        margin: auto;
+    }
+    .launchDetailsCard {
+        height: 325px;
+    }
+
+
+}
 
 @media (min-width: 700px) {
+    .containerBox {
+        display: flex;
+    }
+    .containerLeftSection {
+        width:20%;
+
+    }
+    .containerRightSection {
+        width: 80%;
+        margin-left: 10px;
+        padding: 0px;
+        display: flex;
+        flex-flow: wrap;
+        margin-top: 0px;
+        
+
+    }
+    .launchDetailsCard {
+        max-width: 230px;
+    width: 40%;
+    display: inline-block;
+    margin-right: 0px;
+    height: 310px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    }
+    .launchDetailsCard img {
+        margin: 0px;
+        width: 120px;
+        height: 120px;
+    }
+    .launchImage {
+        margin: 5%;
+        max-width: 90%;
+    }
+
+}
+
+@media (min-width: 1024px) {
     .containerBox {
         display: flex;
     }
@@ -130,7 +183,7 @@
         width: 21%;
         display: inline-block;
         margin-right: 10px;
-        height: 340px;
+        height: 290px;
         padding: 5px;        
         margin-left: 0px;
         margin-top: 0px;
@@ -145,12 +198,7 @@
         max-width: 100%;
     }
 
-}
-
-@media (min-width: 1024px) {
-    .launchDetailsCard {        
-        height: 290px;        
-    }
+    
 
 }
 @media (min-width: 1440px) {

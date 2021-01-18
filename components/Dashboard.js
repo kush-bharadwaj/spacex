@@ -19,7 +19,6 @@ const Dashboard = (props) => {
 
     useEffect(function () {
         handleApiCall({});
-
     }, []);
 
     const handleApiCall = param => {
