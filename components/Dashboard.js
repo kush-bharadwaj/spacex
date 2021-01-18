@@ -66,7 +66,7 @@ const Dashboard = (props) => {
             'launch_year': launch_year,
             'land_success': land_success
         }
-        if (launchingRef.map.get(index).value == launch_success) {
+        if (launchingRef.map.get(index).value.toLowerCase() == launch_success) {
             router.replace('/home/dashboard');
             launchingRef.map.get(index).style.background = '#c5e09b';
             setLaunchSuccess('');
@@ -86,7 +86,7 @@ const Dashboard = (props) => {
             'launch_year': launch_year,
             'launch_success': launch_success
         }
-        if (landingRef.map.get(index).value == land_success) {
+        if (landingRef.map.get(index).value.toLowerCase() == land_success) {
             router.replace('/home/dashboard');
             landingRef.map.get(index).style.background = '#c5e09b';
             setLandSuccess('');
