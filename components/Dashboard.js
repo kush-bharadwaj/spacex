@@ -51,7 +51,6 @@ const Dashboard = (props) => {
             setLaunchYear('');
         }
         else {
-            // router.push('/?button-' + index, null, { shallow: true })
             router.replace('/home/dashboard/', 'button-' + index);
             filterYears.forEach((val, i) => yearsRef.map.get(i).style.background = '#c5e09b');
             yearsRef.map.get(index).style.background = '#7cba01';
