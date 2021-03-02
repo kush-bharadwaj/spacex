@@ -4,8 +4,6 @@ import MultiRef from 'react-multi-ref';
 import { filterYears, filterLaunching, filterLanding } from './inputData.js';
 import axios from 'axios';
 
-import './styles.css';
-
 
 const Dashboard = (props) => {
     const { router } = props;
@@ -18,11 +16,11 @@ const Dashboard = (props) => {
     const [responseData, setResponseData] = useState([]);
 
     useEffect(function () {
+        router.push('/home/dashboard');
         handleApiCall({});
     }, []);
 
-    const handleApiCall = param => {
-        
+    const handleApiCall = param => {        
         axios({
             "method": "GET",
             "url": "https://api.spaceXdata.com/v3/launches?limit=100",
